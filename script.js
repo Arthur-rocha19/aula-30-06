@@ -7,13 +7,18 @@ const botaoResetar = document.getElementById("resetar");
 
 botaoAumentar.addEventListener("click", function () {
    valorAtual++;
+   
    spanValor.textContent = valorAtual;
 });
+
 botaoDiminuir.addEventListener("click", function () {
     valorAtual--;
+
     spanValor.textContent = valorAtual;
 });
+
 botaoResetar.addEventListener("click", function () {
     valorAtual = 0;
+
     spanValor.textContent = valorAtual;
 });
