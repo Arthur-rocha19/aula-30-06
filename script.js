@@ -1,7 +1,7 @@
 let valorAtual = 0;
 
 const spanValor = document.getElementById("valor");
-const botaoAumentar = document.getElementById("aumentar");
+const botaoAumentar = document.getElementById("aumenta");
 const botaoDiminuir = document.getElementById("diminuir");
 const botaoResetar = document.getElementById("resetar");
 
